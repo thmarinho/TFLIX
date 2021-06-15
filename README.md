@@ -1,4 +1,4 @@
-# Learning PHP
+# TFLIX
 
 This project has been made in order to learn PHP (I had to...)
 

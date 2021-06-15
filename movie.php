@@ -5,9 +5,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	  <title>Learning PHP</title>
+	  <title>TFLIX</title>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/assets/favicon.ico" />
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   </head>
 	<body>
