@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, div, span, a {
 footer, header {
 	height: 3vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 	text-align: center;
 }
@@ -30,7 +30,9 @@ footer, header {
 header {
   background-color: #222427;
   height: 5vh;
+  justify-content: space-between;
 }
+
 
 .flex-page {
 	display: flex;
