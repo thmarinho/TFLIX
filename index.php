@@ -16,6 +16,7 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <?php include('./components/header.php') ?>
     <div class="flex-page">
       <?php
         $response = json_decode(request(get_url("movie/popular", ["page=".$page])));

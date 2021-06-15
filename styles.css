@@ -19,13 +19,17 @@ h1, h2, h3, h4, h5, div, span, a {
 	text-decoration: none;
 }
 
-footer {
-	height: 4vh;
+footer, header {
+	height: 3vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 	text-align: center;
-	background-color: #bb1921;
+}
+
+header {
+  background-color: #222427;
+  height: 5vh;
 }
 
 .flex-page {
@@ -74,7 +78,7 @@ footer {
 	display: flex;
 	flex-direction: row;
 	color: white;
-	height: 96vh;
+	height: 92vh;
 }
 
 .movie-details-poster {
@@ -114,7 +118,7 @@ footer {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 20px;
+  top: 50px;
   left: 20px;
   height: 50px;
   width: 50px;
