@@ -23,7 +23,7 @@
       <a class='card' href='/movie.php?id=$content->id'>
         <img style='width: 300px; height: 450px;' src='".get_poster_src($content->poster_path)."'/>
         <div class='overlay'>
-          <div class='overlay-text'>En savoir plus</div>
+          <div class='overlay-text'>More infomations</div>
         </div>
       </a>
     ";
@@ -34,7 +34,7 @@
       <a class='card' href='/show.php?id=$content->id'>
         <img style='width: 300px; height: 450px;' src='".get_poster_src($content->poster_path)."'/>
         <div class='overlay'>
-          <div class='overlay-text'>En savoir plus</div>
+          <div class='overlay-text'>More informations</div>
         </div>
       </a>
     ";

@@ -5,7 +5,7 @@
 			<div style='width: 100%; display: flex; justify-content: space-around; align-items: center'>
 				<a href='/'>Trending movies</a>
 				<a href='/shows.php'>TV Shows</a>
-				<a href='/'>Something else</a>
+				<a href='/random.php'>Randomatic</a>
 			</div>
 			<form action='search.php' method='POST' style='margin-right: 30px;'>
 				<input class='search-bar' type='text' name='search' placeholder='Type something...'/>
