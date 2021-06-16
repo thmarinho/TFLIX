@@ -5,7 +5,7 @@
 			<div style='width: 100%; display: flex; justify-content: space-around;'>
 				<a href='/'>Search bar</a>
 				<a href='/'>Trending movies</a>
-				<a href='/'>Random selector</a>
+				<a href='/shows.php'>TV Shows</a>
 				<a href='/'>Something else</a>
 			</div>
 		</header>
