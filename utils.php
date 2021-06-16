@@ -12,14 +12,31 @@
     return $response;
   }
 
+  function get_poster_src($e) {
+    if (!$e)
+      return './assets/default_poster.png';
+    return "https://image.tmdb.org/t/p/w300/$e";
+  }
+
   function get_movie_card($content) {
-    $card = <<< "EOT"
-      <a class='card' href="/movie.php?id=$content->id">
-        <img src='https://image.tmdb.org/t/p/w300/$content->poster_path'/>
-        <div class="overlay">
-          <div class="overlay-text">En savoir plus</div>
+    echo "
+      <a class='card' href='/movie.php?id=$content->id'>
+        <img style='width: 300px; height: 450px;' src='".get_poster_src($content->poster_path)."'/>
+        <div class='overlay'>
+          <div class='overlay-text'>En savoir plus</div>
         </div>
       </a>
-    EOT;
-    return $card;
+    ";
   }
+
+  function get_show_card($content) {
+    echo "
+      <a class='card' href='/show.php?id=$content->id'>
+        <img style='width: 300px; height: 450px;' src='".get_poster_src($content->poster_path)."'/>
+        <div class='overlay'>
+          <div class='overlay-text'>En savoir plus</div>
+        </div>
+      </a>
+    ";
+  }
+?>

@@ -23,7 +23,7 @@
       echo "
 			<div class='movie-details'>
 				<div class='movie-details-poster'>
-					<img src='https://image.tmdb.org/t/p/w500/$movie->poster_path'/>
+					<img src='".get_poster_src($movie->poster_path)."' style='width: 500px'/>
 				</div>
 				<div class='movie-details-details'>
 					<div>

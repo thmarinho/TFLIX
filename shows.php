@@ -23,14 +23,7 @@
         global $maxPage;
         $maxPage = $response->total_pages;
         foreach ($response->results as $value) {
-          echo "
-            <a class='card' href='/show.php?id=$value->id'>
-              <img src='https://image.tmdb.org/t/p/w300/$value->poster_path'/>
-              <div class='overlay'>
-                <div class='overlay-text'>En savoir plus</div>
-              </div>
-            </a>
-          ";
+          echo get_show_card($value);
         }
         global $page;
       ?>

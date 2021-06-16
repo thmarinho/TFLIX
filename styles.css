@@ -33,12 +33,17 @@ header {
   justify-content: space-between;
 }
 
+input:focus-visible {
+  border: none;
+  outline: none;
+}
 
 .flex-page {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-around;
 	width: 100%;
+  min-height: 92vh;
 }
 
 .card {
@@ -124,4 +129,16 @@ header {
   left: 20px;
   height: 50px;
   width: 50px;
+}
+
+.search-bar {
+  padding-left: 10px;
+  border-radius: 50px;
+  border: none;
+  height: 30px;
+  width: 350px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: #272a2f;
+  color: white;
 }

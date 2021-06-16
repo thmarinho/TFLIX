@@ -21,11 +21,11 @@
       $id = $_GET["id"];
       $show = json_decode(request(get_url("tv/$id")));
       echo "
-			<div class='show-details'>
-				<div class='show-details-poster'>
-					<img src='https://image.tmdb.org/t/p/w500/$show->poster_path'/>
+			<div class='movie-details'>
+				<div class='movie-details-poster'>
+					<img src='".get_poster_src($show->poster_path)."' style='width: 500px;'/>
 				</div>
-				<div class='show-details-details'>
+				<div class='movie-details-details'>
 					<div>
 						<span style='font-size: 40px;'>$show->name</span
 						<span style='font-size: 10px;'> ($show->original_language)</span>
