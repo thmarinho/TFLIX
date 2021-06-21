@@ -8,7 +8,7 @@
 	  <title>TFLIX</title>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
     <link rel="icon" href="/assets/favicon.ico" />
-    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   </head>
 	<body id="top">
     <?php include('./components/header.php') ?>
